@@ -24,3 +24,30 @@ This project implements a BLE Mesh Network for IoT devices, allowing multiple no
 ```sh
 $ git clone https://github.com/yourusername/BLE-Mesh-IoT.git
 $ cd BLE-Mesh-IoT
+
+### Step 3: Upload Code to IoT Device
+Use rshell or mpy-cross to upload the script to your MicroPython board:
+
+sh
+Copy
+Edit
+$ rshell
+> cp ble_mesh_iot.py /pyboard/
+Step 4: Run the Code
+Connect to your IoT device and execute the script:
+
+sh
+Copy
+Edit
+$ python ble_mesh_iot.py
+Contributing
+Contributions are welcome! Feel free to submit pull requests or report issues.
+
+License
+This project is licensed under the MIT License.
+
+vbnet
+Copy
+Edit
+
+Would you like me to update this in the README file? 😊
